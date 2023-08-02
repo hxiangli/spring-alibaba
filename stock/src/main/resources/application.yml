@@ -1,0 +1,11 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: stock-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.47.130:8848
+        username: nacos
+        password: nacos

@@ -1,0 +1,11 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: order-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.47.130:8848
+        username: nacos
+        password: nacos
