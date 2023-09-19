@@ -5,7 +5,11 @@ spring:
     name: stock-server
   cloud:
     nacos:
+      config:
+#        enabled: false
+        refresh-enabled: false
       discovery:
-        server-addr: 192.168.47.130:8848
+#        enabled: false
+        server-addr: 192.168.190.129:8848
         username: nacos
         password: nacos

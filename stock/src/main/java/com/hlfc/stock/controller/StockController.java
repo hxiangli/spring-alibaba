@@ -16,4 +16,5 @@ public class StockController {
         System.out.println("库存减去");
         return "库存";
     }
+
 }
